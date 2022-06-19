@@ -17,3 +17,39 @@
 // }
 
 
+// for文
+// for (初期値; 条件式; 増分;) {
+//     処理
+// }
+
+// for (let index = 0; index < 10; index++) {
+//     console.log(index);
+// }
+
+// while文
+let count = 0;
+while (count < 10) {
+    console.log(count);
+    count += 1
+}
+
+function test() {
+    console.log('test')
+}
+
+test();
+
+function sum(num1, num2) {
+    return num1 + num2
+}
+console.log(sum(1, 2));
+
+const fruits = new Array();
+fruits.push('Apple');
+fruits.push('banana');
+console.log(fruits)
+
+const fruits2 = [
+    'Apple', 'banana'
+];
+console.log(fruits2);
