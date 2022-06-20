@@ -27,29 +27,37 @@
 // }
 
 // while文
-let count = 0;
-while (count < 10) {
-    console.log(count);
-    count += 1
-}
+// let count = 0;
+// while (count < 10) {
+//     console.log(count);
+//     count += 1
+// }
 
-function test() {
-    console.log('test')
-}
+// function test() {
+//     console.log('test')
+// }
 
-test();
+// test();
 
-function sum(num1, num2) {
-    return num1 + num2
-}
-console.log(sum(1, 2));
+// function sum(num1, num2) {
+//     return num1 + num2
+// }
+// console.log(sum(1, 2));
 
-const fruits = new Array();
-fruits.push('Apple');
-fruits.push('banana');
-console.log(fruits)
+// const fruits = new Array();
+// fruits.push('Apple');
+// fruits.push('banana');
+// console.log(fruits)
 
-const fruits2 = [
-    'Apple', 'banana'
-];
-console.log(fruits2);
+// const fruits2 = [
+//     'Apple', 'banana'
+// ];
+// console.log(fruits2);
+
+
+let a = 'Hello';
+let b = 'World';
+let put = a + b;
+
+console.log(put)
+
