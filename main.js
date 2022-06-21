@@ -35,3 +35,16 @@ for (let i = 0; i < scores.length; i++) {
 let avg = sum / scores.length;
 console.log('合計値:' + sum);
 console.log('平均値:' + avg);
+
+
+for (i = 1; i <= 20; i += 1) {
+    if (i % 15 == 0) {
+        console.log('FizzBuzz')
+    } else if (i % 3 == 0) {
+        console.log('Fizz')
+    } else if (i % 5 == 0) {
+        console.log('Buzz')
+    } else {
+        console.log(i)
+    }
+}
