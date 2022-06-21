@@ -37,7 +37,7 @@ console.log('合計値:' + sum);
 console.log('平均値:' + avg);
 
 
-for (i = 1; i <= 20; i += 1) {
+for (let i = 1; i <= 20; i += 1) {
     if (i % 15 == 0) {
         console.log('FizzBuzz')
     } else if (i % 3 == 0) {
@@ -48,3 +48,14 @@ for (i = 1; i <= 20; i += 1) {
         console.log(i)
     }
 }
+
+// 階乗の計算
+function factorialize(k) {
+    var j = 1;
+    for(var i = 1; i <= k; i++){
+      j *= i;
+    }
+    return j;
+  }
+
+console.log(factorialize(5));
