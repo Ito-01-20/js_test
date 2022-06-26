@@ -61,13 +61,15 @@
 // console.log(factorialize(5));
 
 
-const input = document.getElementById('test')
+// function change_color() {
+//     const test = document.getElementById('test')
+//     test.textContent = 'テスト';
+//     test.classList.add('red');
+// }
 
-input.type = 'text';
-console.log(input);
 
-const anchor = document.createElement('a')
-anchor.href = '#'
-anchor.target = '_blank'
-
-console.log(anchor)
+document.getElementById('target').onclick = function() {
+    test = document.getElementById('test')
+    test.textContent = 'テスト';
+    test.classList.add('red');
+}
