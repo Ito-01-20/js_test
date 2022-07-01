@@ -55,3 +55,4 @@ console.log(arry.join(""))
 // の2つの変数。deleteできるのはどちらですか？
 // deleteは暗黙に定義された場合は変数は削除できるが、
 // var(let) や function文中の変数はnon-configurableであり削除できない
+
