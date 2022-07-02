@@ -1,5 +1,8 @@
 // 問１ const a = { a: 'a' }とconst b = { b: 'b' } をマージしたc を出力してください e.g{ a:'a', b:'b' }
-// Pass
+// const a = { a: 'a'}
+// const b = { b: 'b'}
+// const c = a + b
+
 
 // 問２ const arry = ['aa','bb','cc','dd','ee','ff','gg']; のdd,ee,ffを新たな配列として返してください
 // const arry = ['aa','bb','cc','dd','ee','ff','gg']; 
@@ -47,8 +50,8 @@ console.log(Boolean([1, 2]))
 // pass
 
 // 問９ こちらの ['a', 'b', 'c'] 配列の中の全ての要素を結合し、1つの文字列として出力してください。
-const arry = ['a', 'b', 'c']
-console.log(arry.join(""))
+// const arry = ['a', 'b', 'c']
+// console.log(arry.join(""))
 
 // 問１０ x = 43
 // let y = 3
@@ -56,3 +59,24 @@ console.log(arry.join(""))
 // deleteは暗黙に定義された場合は変数は削除できるが、
 // var(let) や function文中の変数はnon-configurableであり削除できない
 
+// 問１１ let arry =[
+//     {id:1,name:'morita'},
+//     {id:2,name:'kenji'},
+//     {id:4,name:'uro'},
+//     {id:3,name:'ken'}
+//     ];
+//   をid番号が若い順にソートしたオブジェクトを含む配列を出力してください
+
+// let arry =[
+//     {id:1,name:'morita'},
+//     {id:2,name:'kenji'},
+//     {id:4,name:'uro'},
+//     {id:3,name:'ken'}
+//     ];
+// arry.sort(function(a, b) {
+//     if(a.id > b.id) return 1;
+//     if(a.id < b.id) return -1;
+// });
+
+// 問１２ a, bの変数はデフォルトとしてaは5、bは7を持ち、aに1を代入してconsole出力してください。
+// pass
