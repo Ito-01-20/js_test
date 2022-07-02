@@ -1,33 +1,55 @@
+const select = document.querySelector('select')
+const para = document.querySelector('p')
+
+select.addEventListener('change', setWeather)
+
+function setWeather() {
+    const choice = select.value;
+
+    if (choice === 'sunny') {
+        para.textContent = '今日は晴れです！'
+    } else if (choice === 'rainy') {
+        para.textContent = '今日は雨です!'
+    } else if (choice === 'snowing') {
+        para.textContent = '今日は雪です！'
+    } else if (choice === 'overcast') {
+        para.textContent = '今日は曇りです！'
+    } else {
+        para.textContent = ''
+    }
+}
+
+
+
 // const select = document.querySelector('select');
-// const para = document.querySelector('p');
+// const html = document.querySelector('html');
+// document.body.style.padding = '10px';
 
-// select.addEventListener('change', setWeather);
-
-// function setWeather() {
-//   const choice = select.value;
-
-//   if (choice === 'sunny') {
-//     para.textContent = '今日はとてもいい天気です。短いパンツをはいて、砂浜や公園に出かけ、アイスクリームを食べましょう！';
-//   } else if (choice === 'rainy') {
-//     para.textContent = '雨が降っています。レインコートと傘を忘れないようにして、できる限り室内で過ごしましょう。';
-//   } else if (choice === 'snowing') {
-//     para.textContent = '雪が降ってとても寒いです！室内でホットチョコレートを飲むか、雪だるまを作るのがよいでしょう。';
-//   } else if (choice === 'overcast') {
-//     para.textContent = '雨は降っていませんが、空はとても暗くなっています。万が一に備えレインコートを持ちましょう。';
-//   } else {
-//     para.textContent = '';
-//   }
+// function update(bgColor, textColor) {
+//     html.style.backgroundColor = bgColor;
+//     html.style.color = textColor;
 // }
 
-const select = document.querySelector('select');
-const html = document.querySelector('html');
-document.body.style.padding = '10px';
+// select.onchange = function() {
+//     ( select.value === 'black') ? update('black', 'white'):update('white', 'black');
+// }
 
-function update(bgColor, textColor) {
-    html.style.backgroundColor = bgColor;
-    html.style.color = textColor;
-}
+// const contacts = ['クリス:2232322', 'サラ:3453456', 'ビル:7654322', 'メアリー:9998769', 'ダイアン:9384975'];
+// const para = document.querySelector('p');
+// const input = document.querySelector('input');
+// const btn = document.querySelector('button');
 
-select.onchange = function() {
-    ( select.value === 'black') ? update('black', 'white'):update('white', 'black');
-}
+// btn.addEventListener('click', function() {
+//     let searchName = input.value.toLowerCase();
+//     input.value = '';
+//     input.focus();
+//     for (let i = 0; i < contacts.length; i++) {
+//         let splitContact = contacts[i].split(':');
+//         if (splitContact[0].toLowerCase() === searchName) {
+//           para.textContent = splitContact[0] + ' の電話番号は ' + splitContact[1] + ' です。';
+//           break;
+//         } else {
+//           para.textContent = '連絡先が見つかりません。';
+//         }
+//     }
+// })
