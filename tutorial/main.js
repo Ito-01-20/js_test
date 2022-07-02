@@ -19,6 +19,13 @@ function setWeather() {
     }
 }
 
+let countval = 0;
+let elmButton = document.getElementById('idButton');
+function evtName() {
+    countval ++;
+    elmButton.value = countval + '回クリック';
+}
+
 
 
 // const select = document.querySelector('select');
