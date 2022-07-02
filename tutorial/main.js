@@ -1,23 +1,23 @@
-const select = document.querySelector('select')
-const para = document.querySelector('p')
+// const select = document.querySelector('select')
+// const para = document.querySelector('p')
 
-select.addEventListener('change', setWeather)
+// select.addEventListener('change', setWeather)
 
-function setWeather() {
-    const choice = select.value;
+// function setWeather() {
+//     const choice = select.value;
 
-    if (choice === 'sunny') {
-        para.textContent = '今日は晴れです！'
-    } else if (choice === 'rainy') {
-        para.textContent = '今日は雨です!'
-    } else if (choice === 'snowing') {
-        para.textContent = '今日は雪です！'
-    } else if (choice === 'overcast') {
-        para.textContent = '今日は曇りです！'
-    } else {
-        para.textContent = ''
-    }
-}
+//     if (choice === 'sunny') {
+//         para.textContent = '今日は晴れです！'
+//     } else if (choice === 'rainy') {
+//         para.textContent = '今日は雨です!'
+//     } else if (choice === 'snowing') {
+//         para.textContent = '今日は雪です！'
+//     } else if (choice === 'overcast') {
+//         para.textContent = '今日は曇りです！'
+//     } else {
+//         para.textContent = ''
+//     }
+// }
 
 let countval = 0;
 let elmButton = document.getElementById('idButton');
@@ -25,6 +25,10 @@ function evtName() {
     countval ++;
     elmButton.value = countval + '回クリック';
 }
+
+
+
+
 
 
 
