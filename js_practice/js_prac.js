@@ -80,3 +80,5 @@ console.log(Boolean([1, 2]))
 
 // 問１２ a, bの変数はデフォルトとしてaは5、bは7を持ち、aに1を代入してconsole出力してください。
 // pass
+
+
