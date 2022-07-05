@@ -82,3 +82,9 @@ console.log(Boolean([1, 2]))
 // pass
 
 
+for (let i = 1; i >= 10; ++i) {
+
+    function a() {
+
+    }
+}
