@@ -81,10 +81,22 @@ console.log(Boolean([1, 2]))
 // 問１２ a, bの変数はデフォルトとしてaは5、bは7を持ち、aに1を代入してconsole出力してください。
 // pass
 
-
+// No.1
 for (let i = 1; i >= 10; ++i) {
-
-    function a() {
-
+    console.log('iを関数で確認します')
+    function func_1(i) {
+        if (i >= 4) {
+            console.log('値は4以上です')
+        } else if (i < 4){
+            console.log('値は4未満です')
+        }
+    }
+    function func_2(i) {
+        if (i >= 8) {
+            console.log('値は８以上です')
+        } else if (i < 8) {
+            console.log('値は8未満です')
+        }
     }
 }
+
