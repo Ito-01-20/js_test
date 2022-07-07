@@ -109,3 +109,13 @@ for (array_num; array_num = 0; --array_num) {
     func_1(array_num)
     func_2(array_num)
 }
+
+// No.3
+function return_val() {
+    console.log('関数から戻された値を出力します')
+    return 'sample'
+}
+
+let val = return_val()
+
+console.log(val)
