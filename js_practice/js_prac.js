@@ -119,3 +119,23 @@ function return_val() {
 let val = return_val()
 
 console.log(val)
+
+str_array = ['赤', '青', '黄', '緑', '黒']
+
+function array_str(x) {
+    if (x === '赤') {
+        return 0
+    } else if (x === '青'){
+        return 1
+    } else if (x === '黄') {
+        return 2
+    } else if (x === '緑'){
+        return 3
+    } else {
+        return 4
+    }
+}
+
+function number_array() {
+    
+}
