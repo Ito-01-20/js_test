@@ -100,3 +100,12 @@ for (let i = 1; i >= 10; ++i) {
     }
 }
 
+// No.2
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+array_num = array.length
+
+for (array_num; array_num = 0; --array_num) {
+    console.log(array_num + 'を確認します')
+    func_1(array_num)
+    func_2(array_num)
+}
